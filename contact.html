@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Little Tacos Shop</title>
+    <link rel="icon" href="img/downloadtacos1 copy.jpg">
+    <link rel="stylesheet" href="main.css">
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+    <header class="header">
+    <h1 class="header__h1">Little Tacos Shop Contact Form</h1>
+    <nav class="header__nav">
+        <ul class="header__ul">
+            <li>
+                <a href="/index.html">Home</a> 
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+            <li>
+                <a href="/menu.html">Menu</a>
+            </li>
+            <li>
+             <a href="/hours.html">Hours</a>
+            </li>
+        </ul>
+    </nav>
+    </header>
+    <Section class="hero">
+        <figure>
+        <img src="img/downloadtacos1 copy.jpg" width="299px" height="169px">
+        <figcaption class="offscreen">
+            Suadero Tacos
+        </figcaption>
+        </figure>
+    </Section>
+
+    <main>
+    <article>   
+<section>
+    <h2>Contact Us</h2>
+    <form action="https://httpbin.org/get" method="post">
+    <fieldset>
+        <legend>Little Tacos Form</legend>
+    <p>
+        <label for="firstname">First Name:</label>
+        <input type="text" name="name" id="name" autofocus required autocomplete="on">
+    </p>
+    <p>
+        <label for="lastname">Last Name:</label>
+        <input type="text" name="name" id="name" autofocus required autocomplete="on">
+    </p>
+    <p>
+        <label for="email">Email:</label>
+        <input type="text" name="email" id="email" autofocus required autocomplete="on">
+    </p>
+    <p>
+        <label for="phone">Phone Number:</label>
+        <input type="tel" name="phone" placeholder="333-222-4444" autofocus required autocomplete="on">
+    </p>
+    <p>
+        <label for="password">Password:</label>
+        <input type="password" name="password" placeholder="Your Secret" autofocus required>
+    </p>
+    <caption>Genders Selection:</caption>
+    <div>
+        <input type="radio" name="Gender" id="male" value="male" aria-multiselectable="false">
+        <label for="male" aria-multiselectable="false">Male</label>
+    </div>
+    <div>
+        <input class="label" type="radio" name="Gender" id="female" value="female" aria-multiselectable="false">
+        <label class="label" for="female" aria-multiselectable="false">Female</label>
+    </div>
+</section>
+
+<section>
+<p>
+    <label for="food">Food Selection:</label>
+    <select name="month" id="Food Order">
+        <optgroup label="Fry Dish">
+            <option>Fry Beans</option>
+            <option>Fry Cassava Leaf</option>
+            <option>Fry Okra</option>
+            <option>Fry Bitter Ball</option>
+       </optgroup>
+      <optgroup label="Red Oil Dish">
+        <option>Red Oil Beans</option>
+        <option>Red Oil Potatoes Green</option>
+        <option>Red Oil Okra</option>
+        <option>Palm Butter</option>
+    </optgroup>
+    <optgroup label="Mixed Dish">
+        <option>Salad</option>
+        <option>Mixed Vegetables</option>
+        <option>Mixed Fruits</option>
+        <option>Mixed Juice</option>
+    </optgroup>
+    </select>
+</p>
+</section>
+
+<section>
+<p>  
+    <address>
+        <caption>Delivery Address:</caption><br>
+        <select name="address" id="address">
+            <option>Duazon, Lower Margibi County</option>
+            <option>R2</option>
+            <option>Rehab</option>
+            <option>Caldwel</option>
+            <option>Bensonville</option>
+            <option>Redlight</option>
+            <option>Duport Road</option>
+            <option>SD Cooper Road</option>
+            <option>AB Tolbert Road</option>
+            <option>Boulavard</option>
+            <option>ELWA Junction</option>
+        </select>
+    </address>
+</p>
+</section>
+
+<section>
+    <p>
+    <label for="Month">Month Of Order:</label>
+    <select name="month" id="month">
+        <option>January</option>
+        <option>February</option>
+        <option>March</option>
+        <option>April</option>
+        <option>May</option>
+        <option>June</option>
+        <option>July</option>
+        <option>August</option>
+        <option>September</option>
+        <option>October</option>
+        <option>November</option>
+        <option>December</option>
+    </select>
+    </p>
+    </section>
+
+<section>
+    <caption>Send In Your Message</caption><br>
+    <textarea cols="30" rows="15"></textarea><br>
+</section>
+</fieldset>
+<section>
+    <button type="submit" formaction="https://httpbin.org/get" formmethod="get">submit</button>
+    <button type="reset">Reset</button>
+    <button type="post" formaction="https://httpbin.org/post" formmethod="post">Post</button>
+</section>
+</form>
+</article>
+
+</main>
+<a href="#"><p>Back To Top</p></a>
+<a href="/index.html"><p>Back Home</p></a><wbr>
+<hr>
+<footer class="footer">
+    <p>
+    <span>Copyright&COPY;<time id="year"></time></span> 
+    <span>THe Little Tacos Shop Hours</span>
+    </p>
+</footer>
+    
+</body>
+</html>
